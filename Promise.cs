@@ -22,6 +22,7 @@
             {
                 eventsToCancel = new string[0];
             }
+            Bridge.Return(this, toReturn, eventsToCancel);
         }
     }
 }
