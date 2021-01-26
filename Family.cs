@@ -6,5 +6,7 @@
     public static class Family
     {
         public const string Test = "Test";
+
+        public const string Directory = "Directory";
     }
 }
