@@ -1,5 +1,8 @@
 ﻿namespace PulseNativeBridge
 {
+    /// <summary>
+    /// Class that hold Informations to Resolve the Return value(s)
+    /// </summary>
     public class Promise
     {
         public string id;

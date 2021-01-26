@@ -3,6 +3,9 @@ using System.Reflection;
 
 namespace PulseNativeBridge
 {
+    /// <summary>
+    /// Functions marked with this Attribute are handled as Native Method
+    /// </summary>
     [AttributeUsage(AttributeTargets.Method, Inherited = false, AllowMultiple = false)]
     public class Native : Attribute
     {
@@ -14,6 +17,9 @@ namespace PulseNativeBridge
         }
     }
 
+    /// <summary>
+    /// Class that holds Information about the Native Method
+    /// </summary>
     public class NativeMethod
     {
         public string Name;
@@ -23,6 +29,9 @@ namespace PulseNativeBridge
         public bool HasParams;
     }
 
+    /// <summary>
+    /// SubClass that holds Information about parameters for the Native Method
+    /// </summary>
     public class NativeMethodParameter
     {
         public Type Type;

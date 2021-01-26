@@ -8,11 +8,20 @@ namespace PulseNativeBridge
 {
     public static class Bridge
     {
-
+        /// <summary>
+        /// Return Action to handle the Return value of the Native Method
+        /// </summary>
         public static Action<Promise, object[], string[]> Return;
 
+        /// <summary>
+        /// Action to trigger Events/Callbacks that are passed to the Native Method
+        /// </summary>
         public static Action<string, bool, object[]> TriggerEvent;
 
+        /// <summary>
+        /// Called from MainApp to get NativeFunctions
+        /// </summary>
+        /// <returns></returns>
         public static List<NativeMethod> GetNativeFunctions()
         {
             List<NativeMethod> nativeMethods = new List<NativeMethod>();
