@@ -8,10 +8,10 @@ it does NOT include ❌ BuiltIn JavaScript Apis (Widgets, AddonBehaviour ...)
 
 ### Bugs
 Found a bug? - Please create an "*issue*" that we or the community can solve the bug
-
+If you found an bug or have an wish for the "BuiltIn JavaScript Apis" you can also create an "*issue*"
 
 ### Contribute
-Need a function or want to extend the current nativeBridge, just make an PR !
+Need a function or want to extend the current Api, just make an PR !
 
 **C# Contribution Requirements:**
 * C# Code must work in *NetStandard 2.0*
