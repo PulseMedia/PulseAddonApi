@@ -1,8 +1,8 @@
 # PulseAddonApi
 **This repository includes the following Api's for Pulse**
-* C# Class Library for registering Native Functions/Methods for Pulse
-* Basic JavaScript Api (Nativeless)
-* BuiltIn JavaScript Api (Widgets, AddonBehaviour ...)
+* ✔️ C# Class Library for registering Native Functions/Methods for Pulse
+* ✔️ Basic JavaScript Api (Nativeless)
+it does NOT include ❌ BuiltIn JavaScript Apis (Widgets, AddonBehaviour ...)
 
 ### Bugs
 Found a bug? - Please create an "*issue*" that we or the community can solve the bug
