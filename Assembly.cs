@@ -1,4 +1,4 @@
-﻿namespace PulseNativeBridge
+﻿namespace PulseAddonApi
 {
     public static class Assembly
     {

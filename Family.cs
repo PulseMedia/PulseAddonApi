@@ -1,4 +1,4 @@
-﻿namespace PulseNativeBridge
+﻿namespace PulseAddonApi
 {
     /// <summary>
     /// Static Class which holds available all available Method Families

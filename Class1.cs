@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace PulseNativeBridge
+namespace PulseAddonApi
 {
     public class Class1
     {

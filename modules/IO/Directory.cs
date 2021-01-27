@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace PulseNativeBridge.modules.IO
+namespace PulseAddonApi.modules.IO
 {
     public static class Directory
     {

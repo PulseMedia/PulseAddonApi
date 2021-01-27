@@ -1,4 +1,4 @@
-﻿namespace PulseNativeBridge
+﻿namespace PulseAddonApi
 {
     /// <summary>
     /// Class that hold Informations to Resolve the Return value(s)

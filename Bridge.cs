@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace PulseNativeBridge
+namespace PulseAddonApi
 {
     public static class Bridge
     {

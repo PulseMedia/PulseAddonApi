@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reflection;
 
-namespace PulseNativeBridge
+namespace PulseAddonApi
 {
     /// <summary>
     /// Functions marked with this Attribute are handled as Native Method
