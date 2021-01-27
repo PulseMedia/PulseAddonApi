@@ -7,7 +7,8 @@
 it does NOT include ❌ BuiltIn JavaScript Apis (Widgets, AddonBehaviour ...)
 
 ### Bugs
-Found a bug? - Please create an "*issue*" that we or the community can solve the bug
+Found a bug? - Please create an "*issue*" that we or the community can solve the bug   
+
 If you found an bug or have an wish for the "BuiltIn JavaScript Apis" you can also create an "*issue*"
 
 ### Contribute
