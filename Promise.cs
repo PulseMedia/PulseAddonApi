@@ -28,4 +28,15 @@
             Bridge.Return(this, toReturn, eventsToCancel);
         }
     }
+
+    public class PromiseEvent
+    {
+        public string id;
+
+        public void Trigger(object[] toReturn)
+        {
+            if(id.Length == 0) { return; }
+            Bridge.TriggerEvent(id, toReturn);
+        }
+    }
 }

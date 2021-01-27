@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Reflection;
 
 namespace PulseNativeBridge
@@ -27,6 +28,7 @@ namespace PulseNativeBridge
         public MethodInfo Info;
         public NativeMethodParameter[] Params;
         public bool HasParams;
+        public List<int> Events;
     }
 
     /// <summary>
@@ -37,5 +39,6 @@ namespace PulseNativeBridge
         public Type Type;
         public bool Optional;
         public object Default;
+        public bool IsEvent;
     }
 }

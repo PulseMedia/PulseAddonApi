@@ -16,7 +16,7 @@ namespace PulseNativeBridge
         /// <summary>
         /// Action to trigger Events/Callbacks that are passed to the Native Method
         /// </summary>
-        public static Action<string, bool, object[]> TriggerEvent;
+        public static Action<string, object[]> TriggerEvent;
 
         /// <summary>
         /// Called from MainApp to get NativeFunctions
@@ -43,7 +43,8 @@ namespace PulseNativeBridge
                             Name = methods[c].Name,
                             Family = at.Family,
                             Info = methods[c],
-                            HasParams = false
+                            HasParams = false,
+                            Events = new List<int>()
                         };
                         ParameterInfo[] args = methods[c].GetParameters();
                         if (args.Length > 0)
@@ -65,6 +66,11 @@ namespace PulseNativeBridge
                                         if (bparam.Optional)
                                         {
                                             bparam.Default = args[t].RawDefaultValue;
+                                        }
+                                        if(bparam.Type == typeof(PromiseEvent))
+                                        {
+                                            bparam.IsEvent = true;
+                                            PMethod.Events.Add(t);
                                         }
                                         parameters.Add(bparam);
                                     }
